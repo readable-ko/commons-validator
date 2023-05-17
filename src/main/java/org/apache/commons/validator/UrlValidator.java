@@ -96,7 +96,7 @@ public class UrlValidator implements Serializable {
      */
     public static final int NO_FRAGMENTS = 1 << 2;
 
-    private static final String ALPHA_CHARS = "a-zA-Z";
+    private static final String ALPHA_CHARS = "a-z0-9A-Z";
 
 // NOT USED   private static final String ALPHA_NUMERIC_CHARS = ALPHA_CHARS + "\\d";
 
